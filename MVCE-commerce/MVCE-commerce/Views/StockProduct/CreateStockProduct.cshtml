@@ -1,0 +1,33 @@
+﻿@model MVCE_commerce.DTO.StockProductDTO
+<form asp-action="CreateStockProduct">
+    <div>
+        <label>
+            StockId
+        </label>
+        <input type="text" name="StockId" required />
+        <label>
+            Unit Price
+        </label>
+        <input type="number" name="UnitPrice" required />
+        <label>
+            Quantity
+        </label>
+        <input type="number" name="Quantity" required />
+        <label>
+            Cost Price
+        </label>
+        <input type="number" name="CostPrice" required />
+        <label>
+            Product
+        </label>
+        <select asp-for="ProductNo" asp-items="ViewBag.Products" >
+            <option selected disabled>--Select Product--</option>
+        </select>
+        <div>
+            <input type="submit" value="submit" />
+        </div>   
+    </div>
+    <div>
+        <a asp-controller="Admin" asp-action="AdminPage">back</a>
+    </div>
+</form>

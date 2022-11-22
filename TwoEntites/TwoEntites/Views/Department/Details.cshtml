@@ -1,0 +1,31 @@
+﻿@model TwoEntites.Entities.Department
+<div>
+    <dl>
+        <dd>
+            Id
+        </dd>
+        <dt>
+            @Model.Id
+        </dt>
+        <dd>
+            Name
+        </dd>
+        <dt>
+            @Model.Name
+        </dt>
+        <dd>
+            Code
+        </dd>
+        <dt>
+            @Model.Code
+        </dt>
+        <dd>
+            Workers
+        </dd>
+        <dt>
+          
+            <a asp-controller="Worker" asp-action="DepartmentWorker" asp-route-id="@Model.Id">Worker</a>)
+        </dt>
+
+    </dl>
+</div>

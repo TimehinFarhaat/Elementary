@@ -1,0 +1,16 @@
+D:\staa99\Desktop\Method\bin\Debug\net5.0\Method.exe
+D:\staa99\Desktop\Method\bin\Debug\net5.0\Method.deps.json
+D:\staa99\Desktop\Method\bin\Debug\net5.0\Method.runtimeconfig.json
+D:\staa99\Desktop\Method\bin\Debug\net5.0\Method.runtimeconfig.dev.json
+D:\staa99\Desktop\Method\bin\Debug\net5.0\Method.dll
+D:\staa99\Desktop\Method\bin\Debug\net5.0\ref\Method.dll
+D:\staa99\Desktop\Method\bin\Debug\net5.0\Method.pdb
+D:\staa99\Desktop\Method\obj\Debug\net5.0\Method.csprojAssemblyReference.cache
+D:\staa99\Desktop\Method\obj\Debug\net5.0\Method.GeneratedMSBuildEditorConfig.editorconfig
+D:\staa99\Desktop\Method\obj\Debug\net5.0\Method.AssemblyInfoInputs.cache
+D:\staa99\Desktop\Method\obj\Debug\net5.0\Method.AssemblyInfo.cs
+D:\staa99\Desktop\Method\obj\Debug\net5.0\Method.csproj.CoreCompileInputs.cache
+D:\staa99\Desktop\Method\obj\Debug\net5.0\Method.dll
+D:\staa99\Desktop\Method\obj\Debug\net5.0\ref\Method.dll
+D:\staa99\Desktop\Method\obj\Debug\net5.0\Method.pdb
+D:\staa99\Desktop\Method\obj\Debug\net5.0\Method.genruntimeconfig.cache

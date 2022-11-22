@@ -1,0 +1,79 @@
+﻿@model MVCE_commerce.DTO.StockDTO
+<div>
+    <dl>
+        <dd>
+            S/N
+        </dd>
+        <dt>
+            @Model.Id
+        </dt>
+        <dd>
+            Number:
+        </dd>
+        <dt>
+            @Model.StockNo
+        </dt>
+        <dd>
+            Time
+        </dd>
+        <dt>
+            @Model.Time
+        </dt>
+        <dd>
+            Admin
+        </dd>
+        <dt>
+            @Model.AdminName
+        </dt>
+        <dd>
+           Stocks Item
+        </dd>
+    </dl>
+    <table>
+        <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Product number
+            </th>
+            <th>
+                Selling price
+            </th>
+            <th>
+                Stock Product number
+            </th>
+            <th>
+                Quantity
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+            @foreach (var f in @Model.StockProducts)
+            {
+                <tr>
+                    <th>
+                        @f.Products.Name
+                    </th>
+                    <th>
+                        @f.ProductNo
+                    </th>
+                    <th>
+                        @f.UnitPrice
+                    </th>
+                    <th>
+                        @f.StockProductNo
+                    </th>
+                    <th>
+                        @f.Quantity
+                    </th>
+                </tr>
+            }
+        </tbody>
+    </table>
+                
+             
+        
+    
+</div>

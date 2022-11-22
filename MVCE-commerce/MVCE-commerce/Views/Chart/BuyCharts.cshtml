@@ -1,0 +1,49 @@
+﻿@model MVCE_commerce.DTO.Response
+
+    @if (@Model.Status == false)
+    {
+        <div>
+
+            @Model.Message
+        </div>
+    }
+    else
+    {
+        <div>
+    
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>
+                        Product
+                    </th>
+                    <th>
+                        Quantity
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var t in @Model.Data)
+                {
+                    <tr>
+                        <th>
+                            @t.Name
+                        </th>
+                        <th>
+                            @t.Quantity
+                        </th>
+                        <th>
+                            @t.TotalPrice
+                        </th>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+
+    }
+
+

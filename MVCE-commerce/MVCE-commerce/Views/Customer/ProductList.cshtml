@@ -1,0 +1,41 @@
+﻿@model IEnumerable<MVCE_commerce.DTO.StockProductDTO>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                UnitPrice
+            </th>
+
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <th>
+                    @f.Id
+                </th>
+                <th>
+                    @f.ProductName
+                </th>
+                <th>
+                    @f.UnitPrice
+                </th>
+           
+
+            </tr>
+        }
+        </tbody>
+
+    </table>
+</div>
+<div>
+    <a asp-action="CustomerPage">Your list</a>
+</div>

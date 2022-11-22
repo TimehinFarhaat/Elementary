@@ -1,0 +1,51 @@
+﻿@model MVCE_commerce.DTO.ResponseModels
+<div>
+    <table class="table">
+        <thead>
+
+            <tr>
+               
+                <th>
+                    Name
+                </th>
+                <th>
+                    Quantity
+                </th>
+
+                <th>
+                    Update
+                </th>
+                <th>
+                    Delete
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var s in @Model.Data)
+         {
+            <tr>
+               
+                <th>
+                    @s.Name
+                </th>
+
+                <th>
+                    @s.Quantity
+                </th>
+                <th>
+                    <a asp-action="UpdateChart" asp-route-id="@s.Id">Update</a>
+                </th>
+                <th>
+                    <a asp-action="DeleteCharts" asp-route-id="@s.Id">Delete</a>
+                </th>
+                
+            </tr>
+         }
+              
+            
+        </tbody>
+    </table>
+</div>
+<div>
+    <a asp-action="BuyCharts">Buy</a>
+</div>

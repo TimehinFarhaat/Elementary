@@ -1,0 +1,44 @@
+﻿
+@model MVCE_commerce.DTO.AdminDTO
+<div class="text-center">
+    <h1 class="display-4">Welcome @Model.FirstName</h1>
+</div>
+
+
+<div>
+    <a asp-action="UpdateAdmin"> Adjust your details </a>
+</div>
+<div>
+    <a asp-action="AddAdmin"> Add admin</a>
+</div> 
+<div>
+    <a asp-action="Details"> See your details</a>
+</div>
+<div>
+    <a asp-action="DeleteAdmin"> Remove your account</a>
+</div>
+<div>
+    <a asp-controller="Stock" asp-action="AddStocks"> Add Stock</a>
+</div>
+<div>
+    <a asp-controller="Product" asp-action="CreateItem"> Add Product</a>
+</div>
+<div>
+    <a asp-controller="Category" asp-action="CreateCategory"> Add  Category</a>
+</div>
+<div>
+    <a asp-controller="Category" asp-action="index"> Category list</a>
+</div>
+<div>
+    <a asp-controller="Stock" asp-action="Index"> Stock list</a>
+</div>
+<div>
+    <a asp-controller="Customer" asp-action="Index"> Customer list</a>
+</div>
+<div>
+    <a asp-controller="Product" asp-action="Index"> Product list</a>
+</div>
+<div>
+    <a asp-action="LogOut"> LogOut</a>
+</div>
+

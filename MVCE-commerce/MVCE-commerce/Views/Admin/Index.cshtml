@@ -1,0 +1,53 @@
+﻿@model IEnumerable<MVCE_commerce.DTO.AdminDTO>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Update
+            </th>
+            <th>
+                Delete
+            </th>
+          
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <th>
+                    @f.AdminId
+                </th>
+                <th>
+                    @f.FirstName
+                </th>
+                <th>
+                    <a asp-action="Details" asp-route-id="@f.AdminId">view</a>
+                </th>
+                <th>
+                    <a asp-action="UpdateAdmin" asp-route-id="@f.AdminId"> edit</a>
+                </th>
+                <th>
+                    <a asp-action="DeleteAdmin" asp-route-id="@f.AdminId"> delete</a>
+                </th>
+               
+            </tr>
+        }
+        </tbody>
+
+    </table>
+</div>
+<div>
+    <a asp-action="AddAdmin"> Add Admin</a>
+</div>
+

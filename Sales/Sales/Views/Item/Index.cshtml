@@ -1,0 +1,58 @@
+﻿<div>
+    @model IEnumerable<Sales.DTOs.ItemDTO.ItemDtO>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Unit price
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                Edit
+            </th>
+          
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var t in Model)
+        {
+            <tr>
+                <th>
+                    @t.Id
+                </th>
+                <th>
+                    @t.Name
+                </th>
+                <th>
+                    @t.Price
+                </th>
+                <th>
+                    <img class="card-img" style ="width: 100px; height: 100px;" src="~/My images/@t.Image"/>
+                </th>
+                <th>
+                    <a asp-action="UpdateItem"> Update</a>
+                </th>
+                <th>
+                    <a asp-action="Delete"> delete</a>
+                </th>
+                <th>
+                    <a asp-action="GetDetails"> view</a>
+                </th>
+               
+
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+<div>
+    <a asp-action="CreateItem">Add new Item</a>
+</div>

@@ -1,0 +1,43 @@
+﻿@model MVCE_commerce.DTO.CustomerDTO
+<div>
+    <dl>
+        <dd>
+            Id
+        </dd>
+        <dt>
+            @Model.CustomerId
+        </dt>
+        <dd>
+            First-Name
+        </dd>
+        <dt>
+            @Model.FirstName
+        </dt>
+        <dd>
+            Last-Name
+        </dd>
+        <dt>
+            @Model.LastName
+        </dt>
+        <dd>
+            Email
+        </dd>
+        <dt>
+            @Model.EmailAddress
+        </dt>
+       
+    </dl>
+    
+    
+    <a asp-action="Details" asp-route-id="@Model.CustomerId">view</a>
+    
+    <a asp-action="UpdateCustomer" asp-route-id="@Model.CustomerId">edit</a>
+
+    <a asp-action="DeleteCustomer" asp-route-id="@Model.CustomerId"> delete</a>
+
+    <a asp-action="WalletDetails" asp-route-id="@Model.CustomerId"> view </a>
+
+    <a asp-action="UpdateWallet" asp-route-id="@Model.CustomerId"> Add</a>
+    
+</div>
+

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hMfnVY8byYyNc90L63dvJMeitcbb1NW37olNInTy2KbJ9EP4wrS7Cn82rK6WbhDPeiP3YS6D/Pqde7oVVM7LPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\staa99\\source\\repos\\Collection and Generics\\Collection and Generics\\Collection and Generics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\staa99\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

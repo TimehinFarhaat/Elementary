@@ -1,0 +1,16 @@
+﻿@using MVCE_commerce.Entities
+@model MVCE_commerce.DTO.CustomerDTO
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    ViewData["Title"] = "Customer";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome @Model.FirstName</h1>
+</div>
+
+<div>
+
+    <a asp-action="LogOut"> LogOut</a>
+</div>
+

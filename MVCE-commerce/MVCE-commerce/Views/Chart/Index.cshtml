@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MVCE_commerce.DTO.StockProductDTO>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Unit price
+            </th>
+            <th>
+                ProductNo
+            </th>
+
+        </tr>
+        </thead>
+        <tbody>
+        
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <th>
+                        @s.ProductName
+                    </th>
+                    <th>
+                        @s.UnitPrice
+                    </th>
+                    <th>
+                        <a asp-action="CreateChart">Add</a>
+                    </th>
+                   
+                  
+                </tr>
+
+                
+            }
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+

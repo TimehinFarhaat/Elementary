@@ -1,0 +1,29 @@
+﻿@model MVCE_commerce.DTO.CustomerRequestModel
+
+<form asp-action="AddCustomer">
+
+    <div>
+        <div>
+            @ViewBag.Message
+        </div>
+        <label>
+            First Name*
+        </label>
+        <input type="text" name="FirstName" asp-for="FirstName" required />
+        <label>
+            Last Name
+        </label>
+        <input type="text" name="LastName" asp-for="LastName" required />
+        <label>
+            Email
+        </label>
+        <input type="email" name="EmailAddress" asp-for="EmailAddress" required />
+        <label>
+            Password
+        </label>
+        <input type="password" name="Password" asp-for="password" required />
+        <div>
+            <input type="submit" value="Create" />
+        </div>
+    </div>
+</form>

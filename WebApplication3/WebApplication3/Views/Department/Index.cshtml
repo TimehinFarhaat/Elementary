@@ -1,0 +1,72 @@
+﻿<div>
+    @model IEnumerable<WebApplication3.DTOs.Department.DepartmentDto>
+    <div>
+        @if(Model == null)
+        {
+            <p>No Student in the list</p>
+        }
+        else
+        {
+            <table class="table">
+                <thread>
+                    <tr>
+                        <th>
+
+                            Id
+
+
+                        </th>
+                        <th>
+
+                            Name
+
+
+                        </th>
+                        <th>
+                            Address
+
+                        </th>
+                        <th>
+                            Update
+
+                        </th>
+                        <th>
+                            Delete
+
+                        </th>
+                       
+                    </tr>
+                </thread>
+                <tbody>
+                @foreach (var  g in Model)
+                {
+                    <tr>
+                        <th>
+                            @g.DepartmentId
+                        </th>
+                        <th>
+                            @g.DepartmentName
+                        </th>
+                        <th>
+                            <a asp-action="GetDetails" asp-route-id="@g.DepartmentId">View</a>
+                        </th>
+                        <th>
+                            <a asp-action="Edit" asp-route-id="@g.DepartmentId">Update</a>
+                        </th>
+                        <th>
+                            <a asp-action="Delete" asp-route-id="@g.DepartmentId">Delete</a>
+                        </th>
+                        
+                    </tr>
+
+                }
+        
+                </tbody>
+            </table>
+        }
+       
+    </div>
+</div>
+<div>
+    <a asp-action="Create">Add new Department</a>
+</div>

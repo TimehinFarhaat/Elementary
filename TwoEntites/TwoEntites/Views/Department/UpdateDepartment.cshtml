@@ -1,0 +1,16 @@
+﻿@model TwoEntites.Entities.Department
+<div>
+    <form asp-action="UpdateDepartment">
+        <label>
+            Name
+        </label>
+        <input type="text" name="Name" value="@Model.Name" required/>
+        <label>
+            Code
+        </label>
+        <input type="text" name="Code" value="@Model.Code" required/>
+        <div>
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+</div>

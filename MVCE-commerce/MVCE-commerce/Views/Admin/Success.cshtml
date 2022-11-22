@@ -1,0 +1,10 @@
+﻿@using Microsoft.AspNetCore.Http
+<h3>SuccessPage</h3>
+Welcome @Context.Session.GetString("Name")
+<br />
+<div class="text-center">
+    <p><b>Name:</b>  @Context.Session.GetString("Name");<b> Email:</b> @Context.Session.GetString("email")<b>
+        Id:
+    </b>@Context.Session.GetInt32("Id")</p>
+</div>
+<a asp-action="LogOut">logout</a> 

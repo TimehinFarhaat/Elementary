@@ -1,0 +1,52 @@
+﻿<div>
+    @model IEnumerable<Sales.DTOs.CategoryDTO.CategoryDtO>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Update
+            </th>
+            <th>
+                Delete
+            </th>
+          
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <th>
+                    @f.CategoryId
+                </th>
+                <th>
+                    @f.Name
+                </th>
+                <th>
+                    <a asp-action="GetDetails" asp-route-id="@f.CategoryId" asp-route-age="20">view</a>
+                </th>
+                <th>
+                    <a asp-action="UpdateCategory" asp-route-id="@f.CategoryId"> edit</a>
+                </th>
+                <th>
+                    <a asp-action="Delete" asp-route-id="@f.CategoryId"> delete</a>
+                </th>
+               
+            </tr>
+        }
+        </tbody>
+
+    </table>
+</div>
+<div>
+    <a asp-action="CreateCategory"> Create new Category</a>
+</div>

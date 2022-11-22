@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "p/QV41Y5g7cJjxYvZnnnUEkBcZEjObI82qXl5WbD7JWjiXHYWmyAnst3i7+01ihRtWUlBpuA35xuUf7PFMQEOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\staa99\\source\\repos\\OperatorOverLoading\\OperatorOverLoading\\OperatorOverLoading.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\staa99\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

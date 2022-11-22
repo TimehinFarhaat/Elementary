@@ -1,0 +1,32 @@
+﻿@model MVCE_commerce.DTO.CategoryDTO
+<div>
+    <dl>
+        <dd>
+            Id
+        </dd>
+        <dt>
+            @Model.CategoryId
+        </dt>
+        <dd>
+            Name
+        </dd>
+        <dt>
+            @Model.Name
+        </dt>
+        <dd>
+            Description
+        </dd>
+        <dt>
+            @Model.Description
+        </dt>
+        <dd>
+            Items
+        </dd>
+        <dt>
+            @foreach (var d in @Model.CategoryProducts)
+            {
+                 @d.Products.Name
+            }
+        </dt>
+    </dl>
+</div>

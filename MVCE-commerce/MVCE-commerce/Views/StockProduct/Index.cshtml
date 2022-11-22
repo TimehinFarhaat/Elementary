@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MVCE_commerce.DTO.StockProductDTO>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Unit Price
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Update
+            </th>
+            <th>
+                Delete
+            </th>
+
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <th>
+                    @f.ProductName
+                </th>
+                <th>
+                    @f.UnitPrice
+                </th>
+                <th>
+                    <a asp-action="GetDetails" asp-route-id="@f.StockProductNo">view</a>
+                </th>
+                <th>
+                    <a asp-action="UpdateStockProduct" asp-route-id="@f.StockProductNo"> edit</a>
+                </th>
+                <th>
+                    <a asp-action="Delete" asp-route-id="@f.StockProductNo"> delete</a>
+                </th>
+
+            </tr>
+        }
+        </tbody>
+
+    </table>
+</div>
+<div>
+    <a asp-action="CreateStockProduct"> Add item in stock</a>
+</div>

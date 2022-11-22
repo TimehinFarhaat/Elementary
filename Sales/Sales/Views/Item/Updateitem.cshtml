@@ -1,0 +1,33 @@
+﻿@model Sales.DTOs.ItemDTO.ItemDtO
+
+<form asp-action="UpdateItem">
+
+    <div>
+        <label>
+            Name
+        </label>
+        <input type="text" name="Name" value="@Model.Name" required />
+        <label>
+            Unit Price
+        </label>
+        <input type="number" name="Price" value="@Model." required />
+        <label>
+            Quantity
+        </label>
+        <input type="number" name="Quantity" value="@Model.Quantity" required />
+        <label>
+            Image
+        </label>
+        <input type="file" name="Image"  value="@Model.Image" required />
+
+        <label>
+            Category
+        </label>
+        <select asp-for="CategoryItems" asp-items="ViewBag.Categories" multiple>
+            <option selected disabled>--Select Category--</option>
+        </select>
+        <div>
+            <input type="submit" value="submit" />
+        </div>
+    </div>
+</form>

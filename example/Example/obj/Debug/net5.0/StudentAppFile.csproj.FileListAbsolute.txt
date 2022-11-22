@@ -1,0 +1,16 @@
+C:\Users\staa99\source\repos\example\Example\bin\Debug\net5.0\StudentAppFile.exe
+C:\Users\staa99\source\repos\example\Example\bin\Debug\net5.0\StudentAppFile.deps.json
+C:\Users\staa99\source\repos\example\Example\bin\Debug\net5.0\StudentAppFile.runtimeconfig.json
+C:\Users\staa99\source\repos\example\Example\bin\Debug\net5.0\StudentAppFile.runtimeconfig.dev.json
+C:\Users\staa99\source\repos\example\Example\bin\Debug\net5.0\StudentAppFile.dll
+C:\Users\staa99\source\repos\example\Example\bin\Debug\net5.0\ref\StudentAppFile.dll
+C:\Users\staa99\source\repos\example\Example\bin\Debug\net5.0\StudentAppFile.pdb
+C:\Users\staa99\source\repos\example\Example\obj\Debug\net5.0\StudentAppFile.csprojAssemblyReference.cache
+C:\Users\staa99\source\repos\example\Example\obj\Debug\net5.0\StudentAppFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\staa99\source\repos\example\Example\obj\Debug\net5.0\StudentAppFile.AssemblyInfoInputs.cache
+C:\Users\staa99\source\repos\example\Example\obj\Debug\net5.0\StudentAppFile.AssemblyInfo.cs
+C:\Users\staa99\source\repos\example\Example\obj\Debug\net5.0\StudentAppFile.csproj.CoreCompileInputs.cache
+C:\Users\staa99\source\repos\example\Example\obj\Debug\net5.0\StudentAppFile.dll
+C:\Users\staa99\source\repos\example\Example\obj\Debug\net5.0\ref\StudentAppFile.dll
+C:\Users\staa99\source\repos\example\Example\obj\Debug\net5.0\StudentAppFile.pdb
+C:\Users\staa99\source\repos\example\Example\obj\Debug\net5.0\StudentAppFile.genruntimeconfig.cache

@@ -1,0 +1,18 @@
+﻿<form asp-action="Login">
+    <div>
+        <div>
+            @ViewBag.Message
+        </div>
+        <label>
+            Email
+        </label>
+        <input type="email" name="EmailAddress" required />
+        <label>
+            Password
+        </label>
+        <input type="password" name="Password" required />
+        <div>
+            <input type="submit"   value="Login" />
+        </div>
+    </div>
+</form>

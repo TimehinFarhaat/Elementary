@@ -1,0 +1,63 @@
+﻿@model WebAppClassWork.Entities.Departments
+<div>
+    <dl>
+        <dd>
+            Id:
+        </dd>
+        <dt>
+            @Model.Id
+        </dt>
+        <dd>
+            Name:
+        </dd>
+        <dt>
+            @Model.Name
+        </dt>
+        <dd>
+            SurName:
+        </dd>
+        <dt>
+            @Model.Code
+        </dt>
+        <dd>
+            @Model.Worker
+        </dd>
+        <dt>
+            @foreach (var y in @Model.Worker)
+             {
+                <dd>
+                    Id:
+                </dd>
+                <dt>
+                    @y.Id
+                </dt>
+
+                <dd>
+                    Name:
+                </dd>
+                <dt>
+                    @y.FirstName
+                </dt>
+                <dd>
+                    SurName:
+                </dd>
+                <dt>
+                    @y.LastName
+                </dt>
+                <dd>
+                    Age
+                </dd>
+                <dt>
+                    @y.Age
+                </dt>
+                <dd>
+                    Email
+                </dd>
+                <dt>
+                    @y.Email
+                </dt>
+                
+             }
+        </dt>
+    </dl>
+</div>

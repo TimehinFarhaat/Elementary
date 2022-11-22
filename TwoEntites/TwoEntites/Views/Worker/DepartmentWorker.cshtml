@@ -1,0 +1,38 @@
+﻿@model IEnumerable<TwoEntites.Entities.Worker>
+
+<div>
+    <table class="table">
+        <thead >
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                SurName
+            </th>
+
+        </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in @Model)
+            {
+                <tr>
+                    <th>
+                        @t.Id
+                    </th>
+                    <th>
+                        @t.FirstName
+                    </th>
+                    <th>
+                        @t.LastName
+                    </th>
+                </tr>
+                
+        }
+        </tbody>
+      
+    </table>
+</div>

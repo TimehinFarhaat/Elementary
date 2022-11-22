@@ -1,0 +1,34 @@
+﻿@model ApplicationUser.DTOs.StaffRequestModel
+<form asp-action="RegisterStaff">
+    <div>
+        <label>
+            First Name
+        </label>
+        <input type="text" name="FirstName" required />
+        <label>
+            Last Name
+        </label>
+        <input type="text" name="LastName" required />
+        <label>
+            Email
+        </label>
+        <input type="email" name="Email" required />
+        <label>
+            Phone Number
+        </label>
+        <input type="text" name="Password" required />
+        <label>
+            Password
+        </label>
+        <input type="password" name="Password" required />
+        <label>
+            Roles
+        </label>
+        <select asp-for="UserRoles" asp-items="ViewBag.Roles" multiple>
+            <option selected disabled>--Select Role--</option>
+        </select >
+        <div>
+            <input type="submit" value="create"/>
+        </div>
+    </div>
+</form>

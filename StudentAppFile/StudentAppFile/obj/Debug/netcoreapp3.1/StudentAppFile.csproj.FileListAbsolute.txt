@@ -1,0 +1,13 @@
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\bin\Debug\netcoreapp3.1\StudentAppFile.exe
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\bin\Debug\netcoreapp3.1\StudentAppFile.deps.json
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\bin\Debug\netcoreapp3.1\StudentAppFile.runtimeconfig.json
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\bin\Debug\netcoreapp3.1\StudentAppFile.runtimeconfig.dev.json
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\bin\Debug\netcoreapp3.1\StudentAppFile.dll
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\bin\Debug\netcoreapp3.1\StudentAppFile.pdb
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\obj\Debug\netcoreapp3.1\StudentAppFile.csprojAssemblyReference.cache
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\obj\Debug\netcoreapp3.1\StudentAppFile.AssemblyInfoInputs.cache
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\obj\Debug\netcoreapp3.1\StudentAppFile.AssemblyInfo.cs
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\obj\Debug\netcoreapp3.1\StudentAppFile.csproj.CoreCompileInputs.cache
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\obj\Debug\netcoreapp3.1\StudentAppFile.dll
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\obj\Debug\netcoreapp3.1\StudentAppFile.pdb
+C:\Users\staa99\source\repos\StudentAppFile\StudentAppFile\obj\Debug\netcoreapp3.1\StudentAppFile.genruntimeconfig.cache

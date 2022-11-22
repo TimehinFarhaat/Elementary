@@ -1,0 +1,15 @@
+﻿@model MVCE_commerce.DTO.StockProductDTO
+<div>
+    <form asp-action="UpdateChart">
+        <label>
+            Quantity
+        </label>
+        <input type="number" asp-for="Quantity" name="Quantity" required="" />
+        <select asp-for="ProductNo" asp-items="ViewBag.Products">
+            <option selected disabled>--Select Product--</option>
+        </select>
+        <div>
+            <input type="submit" value="submit" />
+        </div>
+    </form>
+</div>

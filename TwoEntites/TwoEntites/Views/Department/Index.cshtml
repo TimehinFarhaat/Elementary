@@ -1,0 +1,60 @@
+﻿<div>
+       @model IEnumerable<TwoEntites.Entities.Department>
+    <div>
+        @if(Model==null)
+        {
+            <p>THERE IS NO AVAILABLE DEPARTMENT</p>
+            <p> pls Create</p>
+        }
+        else
+        {
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Details
+                    </th>
+                    <th>
+                        Delete
+                    </th>
+                    <th>
+                        Edit
+                    </th>
+                   
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var h in Model)
+                 {
+                    <tr>
+                        <th>
+                            @h.Id
+                        </th>
+                        <th>
+                            <a asp-action="Details" asp-route-Id="@h.Id" style="color:black">@h.Name</a>
+                        </th>
+                        <th>
+                            <a asp-action="Details" asp-route-Id="@h.Id" style="color: blueviolet">Details</a>
+                        </th>
+                        <th>
+                            <a asp-action="Delete" asp-route-Id="@h.Id" style="color: aquamarine">Delete</a>
+                        </th>
+                        <th>
+                            <a asp-action="UpdateDepartment" asp-route-Id="@h.Id">Edit</a>
+                        </th>
+                    </tr>
+                 }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+<div>
+    <a asp-action="AddDepartment">Add new Department</a>
+</div>

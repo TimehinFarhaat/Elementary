@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MVCE_commerce.DTO.ProductDTO>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Product Number
+                </th>
+                <th>
+                    Details
+                </th>
+                <th>
+                    Update
+                </th>
+                <th>
+                    Delete
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var f in Model)
+            {
+                <tr>
+                    <th>
+                        @f.Id
+                    </th>
+                    <th>
+                        @f.Name
+                    </th>
+                    <th>
+                        @f.ItemId
+                    </th>
+                    <th>
+                        <a asp-action="GetDetails" asp-route-id="@f.ItemId">view</a>
+                    </th>
+                    <th>
+                        <a asp-action="UpdateItem" asp-route-id="@f.ItemId"> edit</a>
+                    </th>
+                    <th>
+                        <a asp-action="Delete" asp-route-id="@f.ItemId"> delete</a>
+                    </th>
+
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+<div>
+    <a asp-action="CreateItem"> Add item</a>
+</div>

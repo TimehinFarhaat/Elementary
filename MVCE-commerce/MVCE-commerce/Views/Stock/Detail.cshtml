@@ -1,0 +1,32 @@
+﻿@model MVCE_commerce.DTO.StockDTO
+<div>
+    <dl>
+        <dd>
+            S/N
+        </dd>
+        <dt>
+            @Model.Id
+        </dt>
+        <dd>
+            Number:
+        </dd>
+        <dt>
+            @Model.StockNo
+        </dt>
+        <dd>
+            Time
+        </dd>
+        <dt>
+            @Model.Time
+        </dt>
+        <dd>
+            Admin
+        </dd>
+        <dt>
+            @Model.AdminName
+        </dt>
+    </dl>
+    <div>
+        <a asp-controller="StockProduct" asp-action="CreateStockProduct"> Add stock items</a>
+    </div>
+</div>

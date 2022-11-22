@@ -1,0 +1,29 @@
+﻿@model Sales.DTOs.ItemDTO.ItemDtO
+<div>
+    <dl>
+        <dd>
+            Id
+        </dd>
+        <dt>
+            @Model.ItemId
+        </dt>
+        <dd>
+            Image
+        </dd>
+        <dt>
+            <img class="card-img" style="width: 100px; height: 100px;" src="~/My images/@Model.Image" />
+        </dt>
+        <dd>
+            Price
+        </dd>
+        <dt>
+            @Model.Price
+        </dt>
+        <dd>
+            Quantity
+        </dd>
+        <dt>
+            @Model.Quantity
+        </dt>
+    </dl>
+</div>

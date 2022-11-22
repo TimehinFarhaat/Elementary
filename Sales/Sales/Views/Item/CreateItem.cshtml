@@ -1,0 +1,32 @@
+﻿@model Sales.DTOs.CategoryDTO.RequestModel.ItemRequestModel
+<form asp-action="CreateItem" enctype="multipart/form-data">
+
+    <div>
+        <label>
+            Name
+        </label>
+        <input type="text" name="Name" required/>
+        <label>
+            Unit Price
+        </label>
+        <input type="number" name="Price" required/>
+        <label>
+            Quantity
+        </label>
+        <input type="number" name="Quantity" required/>
+        <label>
+            Image
+        </label>
+        <input type="file" name="Image"  required/>
+        
+        <label>
+            Category
+        </label>
+        <select asp-for="CategoryIds" asp-items="ViewBag.Categories" multiple>
+            <option selected disabled>--Select Category--</option>
+        </select>
+        <div>
+            <input type="submit" value="submit"/>
+        </div>
+    </div>
+</form>

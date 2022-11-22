@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gBR2r5K5eqyoIq0uytIKgGpd0Wiz96FMJhCmoZO7tfz5U7g4fL7/9ZHO1gTvF6pw8ZfDOa54l1BhCZ4wfhTrNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\staa99\\source\\repos\\EntiityRelationship\\EntiityRelationship\\EntiityRelationship.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\staa99\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

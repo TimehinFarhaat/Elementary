@@ -1,0 +1,13 @@
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.exe
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.deps.json
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.runtimeconfig.json
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.runtimeconfig.dev.json
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.dll
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.pdb
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.csprojAssemblyReference.cache
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.AssemblyInfoInputs.cache
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.AssemblyInfo.cs
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.csproj.CoreCompileInputs.cache
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.dll
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.pdb
+C:\Users\staa99\source\repos\OperatorOverLoading\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.genruntimeconfig.cache

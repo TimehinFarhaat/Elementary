@@ -1,0 +1,35 @@
+﻿@model TwoEntites.Entities.Worker
+<div>
+    <form asp-action="EditWorker">
+        <div>
+            <label>
+                FirstName
+            </label>
+            <input type="text" name="FirstName"  value="@Model.FirstName" required/>
+        </div>
+        <div>
+            <label>
+                SurName
+            </label>
+            <input type="text"  name="LastName"  value="@Model.LastName" required/>
+        </div>
+        <div>
+            <label>
+                Age
+            </label>
+            <input type="text"  name="Age"  value="@Model.Age" required/>
+        </div>
+        <div>
+            <label>
+            Email
+            </label>
+            <input type="text"  name="Email"  value="@Model.Email" required/>
+            <select asp-for="DepartmentId" asp-items="ViewBag.Department">
+                <option selected disabled>--Select Department--</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="submit" class="btn btn-primary" />
+        </div>
+    </form>
+</div>

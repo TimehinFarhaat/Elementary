@@ -1,0 +1,76 @@
+﻿<div>
+    @model IEnumerable<TwoEntites.Entities.Worker>
+    <div>
+        @if(Model == null)
+        {
+            <p>No teachers in the list</p>
+        }
+        else
+        {
+            <table class="table">
+                <thread>
+                    <tr>
+                        <th>
+
+                            Id
+
+
+                        </th>
+                        <th>
+
+                            FirstName
+
+
+                        </th>
+                        <th>
+                            Detail
+
+                        </th>
+                        <th>
+                            Edit
+
+                        </th>
+                        <th>
+                            Delete
+
+                        </th>
+                    
+                       
+                    </tr>
+                </thread>
+                <tbody>
+                @foreach (var  g in Model)
+                {
+                    <tr>
+                        <th>
+                            @g.Id
+                        </th>
+                        <th>
+                            @g.FirstName
+                        </th>
+                        <th>
+                            <a asp-action="GetWorker" asp-route-id="@g.Id">view</a>
+                        </th>
+                        <th>
+                            <a asp-action="EditWorker" asp-route-id="@g.Id">edit</a>
+                        </th>
+                        <th>
+                            <a asp-action="Delete" asp-route-id="@g.Id">delete</a>
+                        </th>
+
+                        
+
+
+                    </tr>
+
+                }
+        
+                </tbody>
+            </table>
+        }
+       
+    </div>
+</div>
+<div>
+    <a asp-action="AddWorker">Add new Worker</a>
+</div>

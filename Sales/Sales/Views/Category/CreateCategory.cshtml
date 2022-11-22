@@ -1,0 +1,21 @@
+﻿<form asp-action="CreateCategory">
+    <div>
+        <label>
+            Name*
+        </label>
+        <input type="text" name="Name" required/>
+        <label>
+            Description
+        </label>
+        <input type="text" name="Description" required/>
+        
+        <div>
+            <input type="submit" value="Create"/>
+        </div>
+    </div>
+</form>
+<div>
+    <a asp-controller="Item" asp-action="GetDetails">View Details</a>
+</div>
+
+

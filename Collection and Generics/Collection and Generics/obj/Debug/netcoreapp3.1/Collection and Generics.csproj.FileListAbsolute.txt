@@ -1,0 +1,13 @@
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\bin\Debug\netcoreapp3.1\Collection and Generics.exe
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\bin\Debug\netcoreapp3.1\Collection and Generics.deps.json
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\bin\Debug\netcoreapp3.1\Collection and Generics.runtimeconfig.json
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\bin\Debug\netcoreapp3.1\Collection and Generics.runtimeconfig.dev.json
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\bin\Debug\netcoreapp3.1\Collection and Generics.dll
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\bin\Debug\netcoreapp3.1\Collection and Generics.pdb
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\obj\Debug\netcoreapp3.1\Collection and Generics.csprojAssemblyReference.cache
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\obj\Debug\netcoreapp3.1\Collection and Generics.AssemblyInfoInputs.cache
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\obj\Debug\netcoreapp3.1\Collection and Generics.AssemblyInfo.cs
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\obj\Debug\netcoreapp3.1\Collection and Generics.csproj.CoreCompileInputs.cache
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\obj\Debug\netcoreapp3.1\Collection and Generics.dll
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\obj\Debug\netcoreapp3.1\Collection and Generics.pdb
+C:\Users\staa99\source\repos\Collection and Generics\Collection and Generics\obj\Debug\netcoreapp3.1\Collection and Generics.genruntimeconfig.cache
